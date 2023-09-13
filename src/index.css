@@ -1,0 +1,106 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+.custom-padding {
+  margin-top: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.flex-space{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.platform{
+  margin-left:-100px;
+  margin-top: 40px;
+}
+.text-customGray{
+  color:#A8A9AD;
+}
+.images{
+  margin:500px 0;
+}
+.textContainer{
+  padding-top:100px;
+  min-width:768px;
+}
+.button{
+  margin-top:50px;
+  width:120px;
+  height:40px;
+  border:1px solid black;
+  border-radius: 10px;
+  background-color: #0000ff;
+  color: white;
+}
+.lastImage{
+  margin:100px 0;
+
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:100%;
+}
+.hrLine{
+  margin-top:40px;
+  border-top:1px solid white;
+}
+.footer-container{
+  margin-top:-100px;
+}
+.footer-list{
+  padding-top:30px;
+}
+.copyright{
+  margin:30px 0;
+  padding-bottom:40px;
+}
+.react-container{
+  min-width:768px;
+}
+.safety{
+  width:200px;
+  height:200px;
+}
+.safety {
+  position: relative;
+  border: 1px solid #000;
+  border-radius: .375rem;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  color: black;
+}
+
+.safety:hover {
+  background-color: #0000ff;
+}
+
+.safety:hover p, .safety:hover h2, .safety:hover div.overlay {
+  color: white;
+}
+
+.safety .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000ff;
+  opacity: 0;
+  border-radius: .375rem;
+}
+
+.safety:hover .overlay {
+  opacity: 1;
+}
+
+.safety p,
+.safety h2 {
+  color: inherit;
+}
